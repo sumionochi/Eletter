@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+    
+* {
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Inter', sans-serif !important;
+    border-color: #222 !important;
+    color: #222 !important;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0 ;
+}
+
+    body {
+        font-family: 'Inter', sans-serif;
+        background-color: #f6f6f6 !important;
+        color: rgb(43, 50, 71);
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: nowrap;
+        list-style-type: none;
+        column-gap: 2rem;
+        position: fixed;
+        margin-left: 1.5rem;
+    }
+
+    .navbar .pad1,.pad2{
+        border-style: solid;
+        border-width: 2px;
+        font-size: 1rem;
+        padding: 1em;
+        margin: 0em 0em;
+        border-radius: 15px;
+        flex-shrink: 0;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: #f6f6f6 !important;
+    }
+
+    .nopad{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f6f6f6 !important;
+        margin: 0em 0em;
+        border-style: solid;
+        border-radius: 15px;
+        border-width: 2px;
+    }
+
+    .nav-link .mode{
+        width: 3.5rem;
+        padding: 0.5em; 
+        flex-shrink: 0;
+    }
+
+    .title{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width:100%;
+    }
+
+    .title h1{
+        font-size: 20vw;
+        padding: 0rem;
+        margin: 0;
+        max-width:100%;
+    }
+
+    .title h6{
+        font-size: 3.45vw;
+        padding: 0rem;
+        margin: 0;
+        letter-spacing: 0.7vw;
+        max-width:100%;
+    }
+
+    #follower {
+        width: 10vw;
+        height: 10vw;
+        border-radius: 50%;
+        background: #d10464;
+        opacity: 0.7;
+        position: absolute;
+        margin: -16px 0 0 -16px;
+      }
+
+    figure{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    figure .girl{
+        width: 100vw;
+        height: 100vh;
+        background-color: #d10464;
+        padding: 10%;
+        max-width:100%;
+    }
+
+    figure figcaption{
+        font-size: 2vw;
+        font-weight: bold;
+        letter-spacing: 0vw;
+        flex-shrink: 0;
+        text-align: center;
+        position: absolute;
+        top: 15vh;
+        background-color: #f6f6f6 !important;
+        border-radius: 20px;
+        padding: 1rem;
+        max-width:100%;
+    }
+
+    main section{
+        border-style: solid;
+        border-color:#222;
+        border-width: 1px;
+        margin: 1rem;
+        padding: 4rem;
+        text-align: left;
+    }
+
+    main #shivi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-style: none;
+        row-gap: 1rem;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    main #shivi img{
+        height: 90vh;
+        border-style: solid;
+        padding: 0vh 0vw;
+        border-width: 10px;
+        max-width:100%;
+    }
+
+    main #shivi .div1{
+        border-style: solid;
+        border-width: 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main #shivi .div2{
+        border-style: solid;
+        border-width: 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .div2 p{
+        position: absolute;
+        top: 41.5%;
+        font-size: 5vh;
+        background-color: #f6f6f6 !important;
+        padding: 1rem;
+        border-radius: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        border-style: solid;
+        max-width:100%;
+        cursor: pointer;
+    }
+
+    table,tr,td,th,caption{
+        border: 1px solid #222 !important;
+        font-family: 'Courier New', Courier, monospace !important;
+        border-collapse: collapse !important;
+        padding: 1vw !important;
+        max-width:100% !important;
+    }
+
+    footer{
+        text-align: left;
+    }
+
+    footer #feelin{
+        display: flex;
+        flex-direction: column;
+        border-style: solid;
+        border-color:#222;
+        border-width: 1px;
+        margin: 1rem;
+        padding: 4rem;
+        text-align: left;
+        max-width:100%;
+    }
+
+    footer #feelin h2{
+      white-space: nowrap;
+      margin-bottom: 1.5rem !important;
+    }
+
+    footer #query{
+        display: flex;
+        flex-direction: column;
+        border-style: solid;
+        border-color:#222;
+        border-width: 1px;
+        margin: 1rem;
+        padding: 4rem;
+        text-align: left;
+    }
+
+    summary{
+        padding: 1rem;
+    }
+
+    footer nav{
+        text-align: center;
+        font-size: 1rem;
+        padding: 1em;
+        margin: 1em 0em;
+        border-radius: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: #f6f6f6 !important;
+        text-decoration: none;
+    }
+
+    #end {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border-width: 1px;
+        margin: 1rem;
+        padding: 4rem;
+        text-align: left;
+    }
+
+    footer h3{
+        text-align: center;
+    }
+
+    footer a{
+        text-align: center;
+        border-style: solid;
+        border-width: 2px;
+        text-align: center;
+        font-size: 1rem;
+        padding: 1em;
+        margin: 1rem 1rem;
+        border-radius: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: #f6f6f6 !important;
+        text-decoration: none;
+    }
+
+    .end{
+        display: flex;
+        flex-direction: column;
+    }
+
+    ::-webkit-scrollbar{
+        width: 1rem;
+    }
+    ::-webkit-scrollbar-track{
+        background-color: #f6f6f6 !important;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: #222;
+        border-style: solid;
+    }
+
+
+    /*BOOTSTRAP*/
+
+    .navbar-nav{
+        display: flex;
+    }
+
+    .navbar-nav  .nav-link{
+        border-style: solid;
+        border-width: 2px;
+        font-size: 1rem;
+        margin: 1rem;
+        padding: 1rem 2rem;
+        border-radius: 15px;
+        flex-shrink: 0;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: #f6f6f6;
+    }
+
+    nav .navbar{
+        display: flex;
+        text-transform: uppercase;
+        font-family: 'Inter', sans-serif;
+        padding: 1rem 1rem;
+        width: 92vw;
+    }
+
+    .container-fluid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0rem !important;
+        margin-right: 0.8rem !important;
+        padding-top: 1rem !important;
+    }
+
+    .navbar-brand{
+        border-style: solid;
+        border-width: 2px;
+        font-size: 1rem;
+        padding: 1rem 1rem;
+        border-radius: 15px;
+        flex-shrink: 0;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: #f6f6f6;
+        margin-top: 0 !important;
+    }
+
+    nav li {
+        display: flex;
+        align-items: center;
+    }
+    
+    nav a{
+        font-family: 'Inter', sans-serif;
+        padding: 1rem 1rem !important; 
+        margin: 1rem !important;
+        margin-left: 0rem !important ;
+        font-size: 1rem !important;
+        background-color: #f6f6f6 !important;
+    }
+
+    .mode{
+        width: 1.5rem !important;
+        padding: 0rem !important;
+        border-color: #000000 !important;
+    }
+
+    .nav-link{
+        margin-top: 0 !important;
+    }
+
+    .gift{
+        margin: 0 auto;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
